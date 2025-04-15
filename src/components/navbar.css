@@ -1,0 +1,29 @@
+.navbar {
+    background-color: transparent;
+    padding: 10px 0;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-menu li a:hover {
+    color: #ffeb3b;
+    transform: scale(1.1);
+  }
